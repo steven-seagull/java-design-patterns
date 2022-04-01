@@ -1,7 +1,7 @@
 package com.jcardoen.factory;
 
 public class DoIt {
-   public static void CreateStuff() {
+   public static void createStuff() {
        ICreator bookCreator = new BookCreator();
        ICreator cdCreator = new CdCreator();
 
